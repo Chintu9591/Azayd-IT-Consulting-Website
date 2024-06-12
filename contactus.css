@@ -1,0 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: #43316d;
+    border-bottom: 1px solid #fff;
+}
+.logo{
+    
+    padding: 22px 20px;
+     height: 80px;
+     float: left;
+     font-size: 24px;
+     font-weight: bold;
+     color: #fff;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+           line-height: 80px;
+           color: #fff;
+           padding: 12px 30px;
+           text-decoration: none;
+           font-size: 14px;
+           font-weight: bold;   
+}
+nav ul li a:hover{
+    background-color: black;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+}
+
+
+div.main{
+    width:500px;
+    margin: 100px auto 0px auto;
+}
+
+
+.contain{
+	max-width: 1170px;
+	margin:auto;
+}
+.ro{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #43337c;
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-style:normal;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	
+    display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: black;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 8%;
+	width: 10%;
+	background-color: white;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 5px;
+	border-radius: 50%;
+	color: black;
+	transition: all 0.5s ease;
+    font-family:'Poppins', sans-serif;
+}
+.footer-col .social-links a:hover{
+	color: white;
+	background-color: black;
+}
+
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.footer{
+	background-color:#a28089;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.comment-box textarea{
+    width: 50%;
+    height: 100px;
+
+}

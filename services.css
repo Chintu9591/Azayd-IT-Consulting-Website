@@ -1,0 +1,12 @@
+*{
+    margin: 6px;
+    padding: 6px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: 55px;
+}
